@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+
+body{
+	margin-top: 100px;
+	font-family: "Roboto";
+	line-height: 1.6
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.nav-cont{
+	display: inline-block;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	
+}
+
+ul.tabs li{
+	color: #222;
+	display: block;
+	padding: 25px;
+	cursor: pointer;
+	border-radius: 30px;
+	width: 43px;
+	margin-top: 10px;
+}
+
+ul.tabs li.current{
+	opacity: .3;
+}
+
+.tab-content{
+	display: none;
+	padding: 15px;
+	overflow: scroll;
+	height: 90vh;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+
+										/* tab nav view */
+
+.nav-tab-color-1{
+	background-image: url(../img/Sedan-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-2{
+	background-image: url(../img/Coat-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-3{
+	background-image: url(../img/Bag-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-4{
+	background-image: url(../img/Tube-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-5{
+	background-image: url(../img/Wheat-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-6{
+	background-image: url(../img/Sofa-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-7{
+	background-image: url(../img/Lipstick-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-8{
+	background-image: url(../img/iMac-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-9{
+	background-image: url(../img/Packaging-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-10{
+	background-image: url(../img/HDMI_Cable-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-11{
+	background-image: url(../img/Bed-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+.nav-tab-color-12{
+	background-image: url(../img/Tractor-100.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	border: 1px solid #000;
+}
+
+										/* product hover-settings */
+
+.wrapper-product{
+	padding: 5px;
+} 
+
+.product-block{
+	background-image: url(../img/prod-1-m.jpg);
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	min-height: 229px;
+	padding: 0;
+
+}
+
+.product-block a{
+	text-decoration: none;
+	color: #2FAFE3;
+}
+
+.product-link {
+	padding: 10px 0;
+	text-align: center;
+}
+
+.check-number{
+	width: 80px;
+	padding-left: 10px;
+	box-sizing: border-box;
+	background: rgba( 0, 0, 0, 0.7);
+}
+
+.product-block_hover{
+	position: absolute;
+	top: 229px;
+	background: rgba( 0, 0, 0, 0.7);
+	min-height: 207px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+.product-info{
+	padding: 10px 0;
+}
+
+.product-link{
+	border-bottom: 1px solid #bbb;
+}
+
+.product-nav{
+	border-top: 1px solid #bbb;
+}
+
+.product-block_hover span{
+	color: #bbb;
+}
+
+.product-block:hover .product-block_hover{
+	transition: .7s ease-in-out;
+	top: 22px;
+}
+
+.product-block:hover .check-number{
+	transition: .7s ease-in-out;;
+	width: 100%;
+	text-decoration: underline;
+}
+
+.product-nav{
+	padding: 15px 0;
+	text-align: center;
+}
+
+.btn-product{
+	padding: 5px 10px;
+	text-decoration: none;
+	border: 1px solid #bbb;
+	border-radius: 15px;
+}
